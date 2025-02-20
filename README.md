@@ -11,11 +11,12 @@
         }
 
         a {
-            color: rgb(117, 0, 0);
+            color: rgb(125, 0, 0);
         }
     </style>
 </head>
-Lista de Projetos desenvolvidos por João Fontenelle: <br>
+Lista de Projetos desenvolvidos por João Fontenelle: 
+<br><br>
 <ul>
     <li><a href="https://joaofontenelle01.github.io/projetos/ProjetoAndroid/ProjetoAndroid.html" target="_blank">Projeto Android</a></li>
     <li><a href="https://joaofontenelle01.github.io/projetos/ProjetoCordel/ProjetoCordel.html" target="_blank">Projeto Cordel</a></li>
