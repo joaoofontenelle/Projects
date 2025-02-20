@@ -1,10 +1,10 @@
 # projetos
 <html lang="pt-br">
 <head>
-    <link rel="shortcut icon" href="../ProjetoCordel/imagens/faviconberserk.ico" type="image/x-icon">
     <style>
         html, body {
-            background-color: black;
+            background-image: linear-gradient(to bottom, #025E73, #011F26, #A5A692, #BFB78F, #F2A71B);
+            background-attachment: fixed;
         }
 
         * {
