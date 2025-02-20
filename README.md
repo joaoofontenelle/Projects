@@ -3,12 +3,15 @@
 <head>
     <style>
         html, body {
-            background-image: linear-gradient(to top, #011126, #034C8C, #023059, #6CAFD9, #84B8D9);
-            background-attachment: fixed;
+            background-color: black;
         }
 
-        *, li {
+        * {
             color: black;
+        }
+
+        a {
+            color: rgb(117, 0, 0);
         }
     </style>
 </head>
