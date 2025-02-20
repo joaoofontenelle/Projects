@@ -1,5 +1,4 @@
 # projetos
- 
 Lista de Projetos desenvolvidos por João Fontenelle:
 <a href="https://joaofontenelle01.github.io/projetos/ProjetoAndroid/ProjetoAndroid.html">Projeto Android</a>
 
