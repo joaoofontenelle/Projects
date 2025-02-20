@@ -7,8 +7,8 @@
             background-attachment: fixed;
         }
 
-        * {
-            color: white;
+        *, a {
+            color: black;
         }
     </style>
 </head>
