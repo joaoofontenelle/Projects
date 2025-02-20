@@ -3,7 +3,7 @@
 <head>
     <style>
         html, body {
-            background-image: linear-gradient(to bottom, #011126, #034C8C, #023059, #6CAFD9, #84B8D9);
+            background-image: linear-gradient(to top, #011126, #034C8C, #023059, #6CAFD9, #84B8D9);
             background-attachment: fixed;
         }
 
