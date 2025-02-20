@@ -7,7 +7,7 @@
             background-attachment: fixed;
         }
 
-        *, a {
+        *, li {
             color: black;
         }
     </style>
