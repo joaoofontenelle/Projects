@@ -1,4 +1,5 @@
 # projetos
+<html lang="pt-br">
 <head>
     <link rel="shortcut icon" href="../ProjetoCordel/imagens/faviconberserk.ico" type="image/x-icon">
     <style>
