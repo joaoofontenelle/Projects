@@ -1,20 +1,4 @@
 # projetos
-<html lang="pt-br">
-<head>
-    <style>
-        html, body {
-            background-color: black;
-        }
-
-        * {
-            color: white;
-        }
-
-        a {
-            color: rgb(125, 0, 0);
-        }
-    </style>
-</head>
 Lista de Projetos desenvolvidos por João Fontenelle: 
 <br><br>
 <ul>
