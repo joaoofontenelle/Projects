@@ -1,5 +1,5 @@
 # projetos
-<link rel="shortcut icon" href="fontes/faviconberserk.ico" type="image/x-icon">
+<link rel="shortcut icon" href="../ProjetoCordel/imagens/faviconberserk.ico" type="image/x-icon">
 Lista de Projetos desenvolvidos por João Fontenelle: <br>
 <ul>
     <li><a href="https://joaofontenelle01.github.io/projetos/ProjetoAndroid/ProjetoAndroid.html" target="_blank">Projeto Android</a></li>
