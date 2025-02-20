@@ -7,7 +7,7 @@
         }
 
         * {
-            color: black;
+            color: white;
         }
 
         a {
