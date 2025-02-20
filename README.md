@@ -1,6 +1,6 @@
 # projetos
 
-Lista de Projetos desenvolvidos por João Fontenelle: <br><br>
+Lista de Projetos desenvolvidos por João Fontenelle: <br>
 <ul>
     <li><a href="https://joaofontenelle01.github.io/projetos/ProjetoAndroid/ProjetoAndroid.html" target="_blank">Projeto Android</a></li>
 
