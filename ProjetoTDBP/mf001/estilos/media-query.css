@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias. */
+
+/* Typical Device Breakpoints (02.2025)
+Pequenas telas (mobile-first)
+320px - 480px → Smartphones pequenos
+481px - 640px → Smartphones médios/grandes
+
+Tablets e telas intermediárias
+641px - 768px → Tablets pequenos (modo retrato)
+769px - 1024px → Tablets grandes (modo paisagem) e notebooks menores
+
+Laptops e desktops
+1025px - 1280px → Notebooks comuns
+1281px - 1440px → Desktops médios
+
+Telas grandes (monitores ultra-wide e TVs)
+1441px - 1920px → Monitores Full HD
+1921px+ → Telas 4K e ultra-wide */
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        border: 2px solid black;
+        width: 112vw;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+        
+        main::after {
+            content: "Esta impressão foi realizada pelo desenvolvedor: https://github.com/joaofontenelle01";
+            text-decoration: overline;
+        }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: block;}
+    img#tv {display: none;}
+    img#pc {display: none;}
+}
+/* IMPRESSORA */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) { 
+    body {
+        background-image: url(../imagens/back-tablet.jpg)
+    }    
+    img#phone {display: none;}
+    img#tablet {display: block;}
+    img#print {display: none;}
+    img#tv {display: none;}
+    img#pc {display: none;}
+}
+/* TABLET */
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#tv {display: none;}
+    img#pc {display: block;}
+}
+/* LAPTOP COMUM */
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#tv {display: block;}
+    img#pc {display: none;}
+}
+/* DESKTOP MÉDIO *
