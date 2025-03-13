@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+    color: black;
+    text-align: center;
+    margin: auto;
+    display: block;
+    background-image: linear-gradient(to top, #8DA3A6, #A69B7C, #734B34);
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 100dvh;
+}
+
+header {
+    font-size: 2em;
+    padding-bottom: 36px;
+}
+
+header > h1 {
+    color: #8DA3A6;
+}
+
+th > h2 {
+    text-shadow: 1px 1px 1px black;
+    color: #d6c8a0;
+}
+
+th > a {
+    color: rgb(0, 0, 0);
+    margin: 0px;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.836);
+    background-color: #8da3a62a;
+    border-radius: 16px;
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+img {
+    border-radius: 20px;
+    padding: 8px;
+}
+
+main#index {
+    margin: auto;
+    padding-bottom: 36px;
+}
+
+p.textoqs {
+    text-align: justify;
+    line-height: 26px;
+    margin-left: 4px;
+}
+
+footer {
+    padding-bottom: 24px;
+    padding-top: 36px;
+}
+
+footer > img {
+    margin: 4px;
+}
+
+footer > a> img {
+    margin: 4px;
+}
+
+footer > a > img:hover {
+    border-radius: 30%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+    margin: 12px;
+    transition: transform .3s, border 1s;
+}
+
+footer > img:hover {
+    border-radius: 38%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+    margin: 12px;
+    transition: transform .3s, border 1s;
+}
+
+footer > h3.dev {
+    color: rgba(255, 140, 0, 0.836);
+    background-color: black;
+    padding: 10px;
+    margin: auto;
+    margin-top: 26px;
+    width: 250px;
+    border: 3px solid rgba(255, 255, 255, 0.644);
+    border-radius: 1em;
+}
