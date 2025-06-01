@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --fonte-principal: 'Orbitron', sans-serif;
+
+    --cor-fundo: #0d0d0d;
+    --cor-texto: #ffffff;
+    --cor-primaria: #00d4ff;
+    --cor-primaria-escura: #0050ff;
+
+    --cor-cabecalho: #111111;
+
+    --cor-cartao-fundo: #1a1a1a;
+
+    --sombra: 0 0 0.625rem var(--cor-primaria);
+    --sombra-hover: 0 0 1.25rem var(--cor-primaria), 0 0 2.5rem var(--cor-primaria-escura);
+
+    --font-size: 1rem;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal), sans-serif;
+    text-align: center;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    transform: scale(0.9);
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    width: 120px;
+    height: 60px;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+#slogan {
+    margin-top: 4rem;
+}
+
+#ingresso {
+    background: linear-gradient(135deg, #00D4FF 0%, #0050FF 100%);
+    height: 3rem;
+    width: 14rem;
+    border-radius: 2rem;
+    font-family: var(--fonte-principal);
+    font-size: small;
+    border: 0;
+    margin: 1rem 0rem 8rem 0rem;
+}
+
+#ingresso:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    box-shadow: 1px 1px 1rem var(--cor-primaria);
+    transition: 0.1s ease-out;
+    transform: scale(0.9);
+} 
+
+#fotos_fest {
+    margin-top: 2rem;
+}
+
+.publico:hover {
+    transform: scale(0.9);
+    border: 1px solid var(--cor-primaria);
+}
+
+#eventos {
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem 0rem 6rem 0rem;
+}
+
+#eventos > button {
+    height: 2.75rem;
+    width: 13rem;
+    background-color: var(--cor-cartao-fundo);
+    box-shadow: 0.3px 0.1px 0.1rem var(--cor-primaria);
+    text-align: left;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    font-family: var(--fonte-principal);
+}
+
+#valores {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+
+.conteineres {
+    background-color: var(--cor-cartao-fundo);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0.1px 0.1px 0.3rem var(--cor-primaria-escura);
+}
+
+.conteineres > button {
+    background: linear-gradient(135deg, #00D4FF 0%, #0050FF 100%);
+    height: 3rem;
+    font-family: var(--fonte-principal);
+    width: 14rem;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 0.1px 0.1px 0.3rem var(--cor-primaria);
+}
+
+.conteineres > button:hover, #inscrever:hover, #eventos > button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(0.9);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+input {
+    width: 20rem;
+    border-radius: 0.3rem;
+    margin: auto;
+    height: 2rem;
+    font-family: var(--fonte-principal);
+    padding-left: 1rem;
+    color: black;
+}
+
+#inscrever {
+    background: linear-gradient(135deg, #00D4FF 0%, #0050FF 100%);
+    border-radius: 2rem;
+    padding: 0.75rem 8rem 0.75rem 8rem;
+    font-family: var(--fonte-principal);
+    font-size: small;
+    border: 0;
+    box-shadow: 1px 1px 0.5rem var(--cor-primaria);
+    margin-top: 1rem;
+}
+
+.linha_entre_divs {
+    background-color: var(--cor-primaria);
+    width: 100%;
+    height: 1px;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+
+footer {
+    margin-bottom: 1rem;
+}
