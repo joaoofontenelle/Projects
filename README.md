@@ -8,4 +8,5 @@ Lista de Projetos desenvolvidos por João Fontenelle:
     <li><a href="https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoMobileFirst/MobileFirst.html" target="_blank">Projeto Mobile First</a></li>
     <li><a href="https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoAgencia/index.html" target="_blank">Projeto Agência de Viagens</a></li>
     <li><a href="https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoGamerFest/gamerfest.html" target="_blank">Projeto GamerFest</a></li>
-</ul>
+    <li><a href="https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoLixoEletrônico/formMVP.html" target="_blank">Formulário - Lixo Eletrônico</a></li>
+    </ul>

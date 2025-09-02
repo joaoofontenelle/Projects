@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário - Lixo Eletrônico</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4 url("assets/img1.png");
+      background-size: 100%;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.48);
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0px 0px 20px;
+      border: 2px solid rgba(0, 0, 0, 0.411);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 12px;
+      color: white;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 15px;
+      color: white;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      opacity: 0.8;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+
+    input {
+      color: black;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+
+    button {
+      background-color: #4caf4f;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 20px;
+      font-size: 16px;
+      transition: background-color 0.3s;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #45a049;
+      transform: scale(1.05);
+      transition: 1s ease-out;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto 15px auto;
+      background-color: rgb(152, 196, 86);
+      border-radius: 3.5rem;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="assets/img2.png" alt="Robô " width="150" height="150" style="border-radius: 100%;" class="logo">
+    
+    <h2>Formulário - Lixo Eletrônico</h2>
+
+    <p style="color: white; text-align: center; line-height: 1.5rem;">Lixo eletrônico, ou e-lixo, é todo resíduo proveniente de equipamentos eletrônicos que não têm mais uso, como celulares, computadores, televisores, pilhas e baterias. Quando descartados de forma incorreta, esses materiais podem poluir o meio ambiente e trazer riscos à saúde.</p>
+    
+    <form action="https://formsubmit.co/joaovictoriodossantos123@gmail.com" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="Nome" placeholder="Seu Nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="Email" placeholder="seuemail@gmail.com">
+      <input type="hidden" name="_captcha" value="false">
+
+      <label for="familiaridade">Qual a sua familiaridade com o problema do descarte incorreto de lixo eletrônico na sua região?</label>
+      <select id="familiaridade" name="Familiaridade com o problema" required>
+        <option value="">-- Escolha --</option>
+        <option value="Muito familiarizado(a)">Muito familiarizado(a)</option>
+        <option value="Familiarizado(a)">Familiarizado(a)</option>
+        <option value="Pouco familiarizado(a)">Pouco familiarizado(a)</option>
+        <option value="Nada familiarizado(a)">Nada familiarizado(a)</option>
+      </select>
+
+      <label for="descartes">Você já precisou descartar lixo eletrônico (celulares, computadores, etc.)?</label>
+      <select id="descartes" name="Experiência com descarte" required>
+        <option value="">-- Escolha --</option>
+        <option value="Sim, várias vezes">Sim, várias vezes</option>
+        <option value="Sim, algumas vezes">Sim, algumas vezes</option>
+        <option value="Sim, mas raramente">Sim, mas raramente</option>
+        <option value="Nunca precisei descartar">Nunca precisei descartar</option>
+      </select>
+
+      <label for="avaliacao">O conteúdo atendeu às suas expectativas?</label>
+      <select id="avaliacao" name="Avaliação do conteúdo" required>
+        <option value="">-- Escolha --</option>
+        <option value="Nada útil">1 - Nada útil</option>
+        <option value="Útil">3 - Útil</option>
+        <option value="Muito útil">5 - Muito útil</option>
+      </select>
+
+      <label for="desafios">Quais são os principais desafios que você enfrenta ao tentar descartar lixo eletrônico de forma consciente?</label>
+      <textarea id="desafios" name="Principais desafios" placeholder="Escreva aqui..."></textarea>
+
+      <label for="funcionalidades">Além da localização de pontos de coleta e informações sobre reciclagem, que outras funcionalidades seriam importantes para você neste aplicativo?</label>
+      <textarea id="funcionalidades" name="Funcionalidades desejadas" placeholder="Escreva aqui..."></textarea>
+
+      <label for="motivacao">Como um aplicativo poderia motivá-lo(a) a praticar o descarte consciente de lixo eletrônico?</label>
+      <textarea id="motivacao" name="Sugestões de motivação" placeholder="Escreva aqui..."></textarea>
+
+      <button type="submit">Enviar Feedback</button>
+    </form>
+  </div>
+</body>
+</html>
