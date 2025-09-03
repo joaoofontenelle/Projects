@@ -1,13 +1,47 @@
-# projetos
-Lista de Projetos desenvolvidos por João Fontenelle: 
+# 📂 Projetos
 
-<ul>
-    <li><a href="https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoAndroid/ProjetoAndroid.html" target="_blank">Projeto Android</a></li>
-    <li><a href="https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoCordel/ProjetoCordel.html" target="_blank">Projeto Cordel</a></li>
-    <li><a href="https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoRedesSociais/ProjetoRS.html" target="_blank">Projeto Redes Sociais</a></li>
-    <li><a href="https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoMobileFirst/MobileFirst.html" target="_blank">Projeto Mobile First</a></li>
-    <li><a href="https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoAgencia/index.html" target="_blank">Projeto Agência de Viagens</a></li>
-    <li><a href="https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoGamerFest/gamerfest.html" target="_blank">Projeto GamerFest</a></li>
-    <li><a href="https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoLixoEletrônico/formMVP.html" target="_blank">Formulário - Lixo Eletrônico</a></li>
-    <li><a href="https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoAlura/alura.html" target="_blank">Projeto Alura</a></li>
-    </ul>
+Lista de projetos desenvolvidos por **João Fontenelle**.  
+Este repositório reúne tanto páginas web desenvolvidas em **HTML e CSS**, quanto **algoritmos em Python**.
+
+---
+
+## 🌐 Projetos Web (HTML & CSS)
+
+- [📱 Projeto Android](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoAndroid/ProjetoAndroid.html)  
+- [📜 Projeto Cordel](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoCordel/ProjetoCordel.html)  
+- [🌍 Projeto Redes Sociais](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoRedesSociais/ProjetoRS.html)  
+- [📲 Projeto Mobile First](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoMobileFirst/MobileFirst.html)  
+- [✈️ Projeto Agência de Viagens](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoAgencia/index.html)  
+- [🎮 Projeto GamerFest](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoGamerFest/gamerfest.html)  
+- [♻️ Formulário - Lixo Eletrônico](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoLixoEletrônico/formMVP.html)  
+- [🎓 Projeto Alura Plus](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoAlura/alura.html)  
+
+---
+
+## 🐍 Projetos em Python
+
+Alguns dos algoritmos desenvolvidos no repositório [ProjetosPython](https://github.com/joaoofontenelle/ProjetosPython):
+
+- 📊 **Análise de Vendas** – uso de funções `SUM`, `AVG`, `COUNT` para relatórios em um sistema e-commerce.  
+- 🐞 **Gestão de Bugs Reportados** – classificação por gravidade, frequência e relatórios automáticos.  
+- 🛒 **Sistema de Loja** – cadastro e listagem de produtos.  
+- 👨‍💼 **Cadastro de Funcionários** – adicionar, atualizar, bloquear e desbloquear registros.  
+- 💻 **Inventário de Equipamentos de TI** – armazenamento e exibição de itens cadastrados.  
+- 🔤 **Analisador de Palavras** – identificação de vogais em cada palavra de uma tupla.  
+- 📈 **Simulação de Mensageria** – RabbitMQ, Amazon SQS e Kafka para cenários de e-commerce.  
+
+*(Cada algoritmo pode ser explorado diretamente no repositório Python.)*
+
+---
+
+## 🚀 Tecnologias Utilizadas
+- **Frontend:** HTML5, CSS3, responsividade (Mobile First).  
+- **Backend & Scripts:** Python 3.  
+- **Versionamento:** Git & GitHub.  
+
+---
+
+## 📬 Contato
+👤 João Victório Dos Santos Fontenelle  
+🔗 [LinkedIn](em breve...)  
+📧 Email: joaofontenelle12570
