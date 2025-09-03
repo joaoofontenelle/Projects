@@ -7,14 +7,14 @@ This repository gathers both **web pages built with HTML & CSS** and **Python al
 
 ## 🌐 Web Projects (HTML & CSS)
 
-- [📱 Android Project](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoAndroid/ProjetoAndroid.html)  
-- [📜 Cordel Project](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoCordel/ProjetoCordel.html)  
-- [🌍 Social Media Project](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoRedesSociais/ProjetoRS.html)  
-- [📲 Mobile First Project](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoMobileFirst/MobileFirst.html)  
-- [✈️ Travel Agency Project](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoAgencia/index.html)  
-- [🎮 GamerFest Project](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoGamerFest/gamerfest.html)  
-- [♻️ E-Waste Form](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoLixoEletrônico/formMVP.html)  
-- [🎓 Alura Plus Project](https://joaoofontenelle.github.io/ProjetosHTMLeCSS/ProjetoAlura/alura.html)  
+- [📱 Android Project](https://joaoofontenelle.github.io/Projetos/ProjetoAndroid/ProjetoAndroid.html)  
+- [📜 Cordel Project](https://joaoofontenelle.github.io/Projetos/ProjetoCordel/ProjetoCordel.html)  
+- [🌍 Social Media Project](https://joaoofontenelle.github.io/Projetos/ProjetoRedesSociais/ProjetoRS.html)  
+- [📲 Mobile First Project](https://joaoofontenelle.github.io/Projetos/ProjetoMobileFirst/MobileFirst.html)  
+- [✈️ Travel Agency Project](https://joaoofontenelle.github.io/Projetos/ProjetoAgencia/index.html)  
+- [🎮 GamerFest Project](https://joaoofontenelle.github.io/Projetos/ProjetoGamerFest/gamerfest.html)  
+- [♻️ E-Waste Form](https://joaoofontenelle.github.io/Projetos/ProjetoLixoEletrônico/formMVP.html)  
+- [🎓 Alura Plus Project](https://joaoofontenelle.github.io/Projetos/ProjetoAlura/alura.html)  
 
 ---
 
