@@ -34,7 +34,6 @@ body {
     background-color: #8da3a62a;
 }
 
-/* Main */
 main {
     padding: 20px;
 }
@@ -58,7 +57,6 @@ main img {
     max-width: 900px;
 }
 
-/* Pacotes (somente para página inicial) */
 .pacotes {
     display: flex;
     flex-wrap: wrap;
@@ -74,12 +72,11 @@ main img {
 }
 
 .pacote img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 200px;
     border-radius: 20px;
 }
 
-/* Footer */
 footer {
     padding: 20px;
     color: rgba(255, 140, 0, 0.836);
@@ -106,7 +103,6 @@ footer h3.dev {
     border-radius: 1em;
 }
 
-/* Media queries */
 @media screen and (max-width: 768px) {
     .header-container {
         flex-direction: column;
