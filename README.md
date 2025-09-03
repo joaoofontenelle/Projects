@@ -28,7 +28,7 @@ Some of the algorithms developed in the [ProjetosPython](https://github.com/joao
 - 👨‍💼 **Employee Management** – add, update, block, and unblock records.  
 - 💻 **IT Equipment Inventory** – store and display registered items.  
 - 🔤 **Word Analyzer** – identify vowels in each word from a tuple.  
-- 📈 **Messaging Simulation** – RabbitMQ, Amazon SQS, and Kafka applied to e-commerce scenarios.  
+- 📈 **Messaging Simulation** – e-commerce scenarios.  
 
 *(Each algorithm can be explored directly in the Python repository.)*
 
