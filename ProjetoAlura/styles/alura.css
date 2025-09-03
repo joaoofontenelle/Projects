@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+:root {
+    --botao-azul: #167BF7;
+    --botao-azul-hover: #3c92fa;
+    --cinza-secundario: #C0C0C0;
+
+    --fonte-size-principal:16px;
+    --fonte-principal: 'Inter', sans-serif;
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: black;
+    color: white;
+    font-family: var(--fonte-principal);
+    font-size: var(--fonte-size-principal);
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+ 
+.principal {
+    background-image: url("/ProjetoAlura/assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+}
+   
+.container__titulo {
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2.5rem;
+    width: 90%;
+    max-width: 23rem;
+    margin: auto;
+}
+
+.container_img {
+    margin: 1rem 0 2rem 0;
+    max-width: 100%;
+}
+
+.container_botao, .botao_secundario {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    color: white;
+    font-size: var(--fonte-size-principal);
+    font-weight: 400;
+    width: 90%;
+    max-width: 24rem;
+    margin: 0 auto 12px auto;
+    text-align: center;
+}
+
+.container_botao:hover, .botao_secundario:hover {
+    text-decoration: underline;
+} 
+
+.botao_secundario {
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    border: 0.5px solid white;
+}
+
+.container_aviso {
+    font-size: 12px;
+    color: #c0c0c0;
+    margin-top: 1rem;
+}
+
+.conteiner_secundario, 
+.conteiner_terceiro, 
+.conteiner_quarto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 6rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.conteiner_descricao > p {
+    width: 100%;
+    max-width: 20rem;
+    line-height: 1.5rem;
+    margin: auto;
+}
+
+.conteiner_descricao > h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.botao_assine {
+    width: 10rem;
+    margin-top: 1rem;
+    height: 3rem;
+    background-color: #167BF7;
+    color: white;
+    border: 0;
+    border-radius: 0.5rem;
+}
+
+.botao_assine:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dispositivos_favoritos {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.lista_um {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 2rem 0 6rem 0;
+}
+
+.lista_um li {
+    text-align: center;
+}
+
+.lista_dois {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    list-style-type: none;
+    margin: 4rem 0;
+}
+
+.lista_dois > li:hover {
+    text-decoration: underline;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin: 3rem 1rem;
+    line-height: 1.5rem;
+}
+
+.footer_logo {
+    max-width: 150px;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 2rem 1rem;
+    }
+    .principal {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .container__titulo {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .conteiner_descricao > h2 {
+        font-size: 1.75rem;
+    }
+
+    .lista_um {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container_botao, .botao_secundario {
+        font-size: 14px;
+        padding: 0.8rem;
+    }
+
+    .conteiner_descricao > p {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
