@@ -20,7 +20,7 @@ This repository gathers both **web pages built with HTML & CSS** and **Python al
 
 ## 🐍 Python Projects
 
-Some of the algorithms developed in the [ProjetosPython](https://github.com/joaoofontenelle/PythonProjects) repository:
+Some of the algorithms developed in the [PythonProjects](https://github.com/joaoofontenelle/PythonProjects) repository:
 
 - 📊 **Sales Analysis** – usage of `SUM`, `AVG`, `COUNT` functions to generate reports in an e-commerce system.  
 - 🐞 **Bug Management System** – classification by severity, frequency, and automated reporting.  
